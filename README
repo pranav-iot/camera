@@ -4,6 +4,6 @@ Step 1: Update the raspberry pi using
 	sudo apt-get upgrade
 	sudo raspi-config	#And enable Camera Option in the Interfacing Options
 Step 2: Install the pycamera
-	sudo apt-get install python-picamera pythin3-picamera
+	sudo apt-get install python-picamera python3-picamera
 	OR
 	python3 -m pip install picamera
