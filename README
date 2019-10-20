@@ -1,0 +1,9 @@
+While connecting the camera the silver side of the camera plug should be towards the HDMI port on the Raspberry Pi
+Step 1: Update the raspberry pi using
+	sudo apt-get update
+	sudo apt-get upgrade
+	sudo raspi-config	#And enable Camera Option in the Interfacing Options
+Step 2: Install the pycamera
+	sudo apt-get install python-picamera pythin3-picamera
+	OR
+	python3 -m pip install picamera
